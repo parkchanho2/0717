@@ -10,7 +10,7 @@ public class IoTest11 {
 	public static void main(String[] args) {
 		
 		try {
-			FileInputStream fi= new FileInputStream("./src/result10.txt"); // 파일로 부터 바이트 단위로 읽어들이기 위한 fi 생성
+			FileInputStream fi= new FileInputStream("./src/result10.txt"); // 파일로 부터 바이트 단위로 읽어들이기 위한 fi 생성                                                                                                                                
 			ObjectInputStream oi = new ObjectInputStream(fi);
 			Customer cus = (Customer)oi.readObject(); // 객체단위로 읽어옴
 			
